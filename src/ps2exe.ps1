@@ -1,7 +1,6 @@
 $host.UI.RawUI.WindowTitle = "ps2exe"
 cls
 
-# ASCII logo
 $ascii = @"
             ____               
   _ __  ___|___ \ _____  _____ 
@@ -56,3 +55,4 @@ try {
 } catch {
     Write-Host "- [ps2exe] - [error] >> $($_.Exception.Message)" -ForegroundColor Red
 }
+
